@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heritage.OS | Professional Prototype</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+    <div class="background-grid"></div>
+
+    <div id="onboarding-overlay" class="onboarding-screen">
+        <div class="glass-container modal-box">
+            <h2 class="glow-text">SYSTEM INITIALIZATION</h2>
+            <p>Welcome to the professional heritage management interface.</p>
+            <input type="text" id="user-name" placeholder="Enter Explorer Name...">
+            <button onclick="startSession()" class="cyber-btn">LAUNCH CORE</button>
+        </div>
+    </div>
+
+    <div class="app-container">
+        <header class="glass-header">
+            <div class="brand">HERITAGE<span>INTEL</span></div>
+
+            <div class="nav-controls">
+                <div class="selector-group">
+                    <select id="state-select" onchange="syncStateData()"></select>
+                    <select id="city-select" onchange="refreshNodes()"></select>
+                </div>
+                <button class="admin-btn" onclick="openAdmin()">ADMIN_DASHBOARD</button>
+            </div>
+        </header>
+
+        <div class="main-workspace">
+            <aside class="control-panel glass-card">
+                <div class="module-group">
+                    <label>02. INTEREST & PREFERENCES</label>
+                    <div id="pref-pills" class="pill-grid"></div>
+                </div>
+
+                <div class="module-group">
+                    <label>04. CIRCUIT TRAIL GENERATION</label>
+                    <button class="action-btn" onclick="buildTrail()">GENERATE SMART ROUTE</button>
+                    <div id="trail-preview" class="status-box"></div>
+                </div>
+            </aside>
+
+            <main class="data-center">
+                <div class="map-viewport glass-card">
+                    <div class="hud-label">MAP_ROUTING_INTEGRATION_ACTIVE</div>
+                    <div class="crosshair">+</div>
+                </div>
+                <div id="heritage-nodes" class="heritage-grid"></div>
+            </main>
+
+            <aside class="utility-panel">
+                <div class="glass-card pass-module">
+                    <label>05. DIGITAL PASS & QR</label>
+                    <div id="qrcode"></div>
+                    <div class="uid-tag">UID: <span id="uid-display">---</span></div>
+                </div>
+
+                <div class="glass-card audio-module">
+                    <label>06. AUDIO CONTENT DELIVERY</label>
+                    <div id="audio-status">SYSTEM_IDLE</div>
+                    <button class="cyber-btn-small" onclick="stopAudio()">STOP_PLAYBACK</button>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
