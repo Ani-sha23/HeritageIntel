@@ -1,26 +1,26 @@
 const heritageDB = {
     "Delhi": {
         "New Delhi": [
-            { name: "Qutub Minar", img: "https://images.unsplash.com/photo-1523544545175-92e04b96d26b", map: "https://maps.app.goo.gl/B9x1r", hindi: "कुतुब मीनार दिल्ली का एक प्रसिद्ध ऐतिहासिक स्तंभ है।" },
-            { name: "Red Fort", img: "https://images.unsplash.com/photo-1585123334904-845d60e97b29", map: "https://maps.app.goo.gl/D9k2m", hindi: "लाल किला मुगल वास्तुकला का एक बेहतरीन उदाहरण है।" },
-            { name: "Humayun's Tomb", img: "https://images.unsplash.com/photo-1585506942812-e72b29cef752", map: "https://maps.app.goo.gl/Z2e1x", hindi: "हुमायूँ का मकबरा भारत का पहला उद्यान मकबरा है।" },
-            { name: "Lotus Temple", img: "https://images.unsplash.com/photo-1542385151-efd9000785a0", map: "https://maps.app.goo.gl/Y3r4w", hindi: "लोटस टेंपल अपने कमल के आकार के लिए जाना जाता है।" }
+            { name: "Qutub Minar", img: "https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=center,quality=60,width=400,height=265,dpr=2/tour_img/83e58e05d4785234893fc48440ecc1638c99e51f2fe73159ca97cf127221ba63.jpeg", map: "https://maps.app.goo.gl/duhMtyc2GLZUSJxT6", hindi: "कुतुब मीनार दिल्ली का एक प्रसिद्ध ऐतिहासिक स्तंभ है।" },
+            { name: "Red Fort", img: "https://wanderwisdom.com/.image/c_fill,w_1200,h_675,g_faces:center/MjAzNDMwNzE1ODA1NjcyNzk2/fort-agra-easy-peasy.jpg", map: "https://maps.app.goo.gl/kJwJekWaYWPE9k1H6", hindi: "लाल किला मुगल वास्तुकला का एक बेहतरीन उदाहरण है।" },
+            { name: "Humayun's Tomb", img: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoATc7-OSCDAIA3xdIjmvIsqmzJ65UXiVokqs0ikQoZRatjK25ggfkF-rth4TE5YKEHLtHAwj_bkU2ze_wv8ztDZe5f0BLITc5wEcT3ibcuVmrZ8MEbyZct62rEF7RPiyU5E83L=w408-h408-k-no", map: "https://maps.app.goo.gl/V7uhBnEc3S46TRn5A", hindi: "हुमायूँ का मकबरा भारत का पहला उद्यान मकबरा है।" },
+            { name: "Lotus Temple", img: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoOaEihhAzFrigFUEZwZAoiSF5hzSGN_lVrjGMGKjjhlM30iU3HPJwvV_sp521R4qujWiIPkFc4H81SK6tTPbdupyx8GlDisGQ6rij_dawRFGQtDPUzSTJlKbdOTRkUpHHRmJ5kjRHq32sf=w408-h306-k-no", map: "https://maps.app.goo.gl/YPCB7hsuudktpoXP9", hindi: "लोटस टेंपल अपने कमल के आकार के लिए जाना जाता है।" }
         ]
     },
     "Uttar Pradesh": {
         "Agra": [
-            { name: "Taj Mahal", img: "https://images.unsplash.com/photo-1564507592333-c60657eaa0ae", map: "https://maps.app.goo.gl/T4a1m", hindi: "ताजमहल दुनिया के सात अजूबों में से एक है।" },
-            { name: "Agra Fort", img: "https://images.unsplash.com/photo-1585135497273-1a86b099433d", map: "https://maps.app.goo.gl/F2k5r", hindi: "आगरा का किला यूनेस्को की विश्व धरोहर स्थल है।" }
+            { name: "Taj Mahal", img: "https://media.istockphoto.com/id/519330110/photo/taj-mahal-agra-india-monument-of-love-in-blue-sky.jpg?s=612x612&w=0&k=20&c=Uma6Q7KduznA6jUKcSquFP1iHHiw8UXcZEYVLONrmaQ=", map: "https://maps.app.goo.gl/euHxE9cdQHXAbvVG9", hindi: "ताजमहल दुनिया के सात अजूबों में से एक है।" },
+            { name: "Agra Fort", img: "https://whc.unesco.org/uploads/thumbs/site_0251_0010-1200-630-20240807180746.jpg", map: "https://maps.app.goo.gl/hfSybFY2L7F6xiCF9", hindi: "आगरा का किला यूनेस्को की विश्व धरोहर स्थल है।" }
         ],
         "Varanasi": [
-            { name: "Kashi Temple", img: "https://images.unsplash.com/photo-1605649487212-47bdab064df7", map: "https://maps.app.goo.gl/V1s9z", hindi: "काशी विश्वनाथ मंदिर भगवान शिव को समर्पित है।" },
-            { name: "Sarnath", img: "https://images.unsplash.com/photo-1596402184320-417d717867cd", map: "https://maps.app.goo.gl/S3m8p", hindi: "सारनाथ वह स्थान है जहाँ बुद्ध ने अपना पहला उपदेश दिया था।" }
+            { name: "Kashi Temple", img: "https://www.daiwikhotels.com/wp-content/uploads/2024/07/kashi-viswanath-temple-cvr-2.jpg", map: "https://maps.app.goo.gl/pqZs7HVusTqUnQmj6", hindi: "काशी विश्वनाथ मंदिर भगवान शिव को समर्पित है।" },
+            { name: "Sarnath", img: "https://static.toiimg.com/photo/msid-56472823,width-96,height-65.cms", map: "https://maps.app.goo.gl/e5NCTWTT21Bc2Qb97", hindi: "सारनाथ वह स्थान है जहाँ बुद्ध ने अपना पहला उपदेश दिया था।" }
         ]
     },
     "Maharashtra": {
         "Mumbai/Pune": [
-            { name: "Gateway of India", img: "https://images.unsplash.com/photo-1570160897040-30430ef2015a", map: "https://maps.app.goo.gl/M2p1q", hindi: "गेटवे ऑफ इंडिया मुंबई का सबसे प्रतिष्ठित स्मारक है।" },
-            { name: "Ajanta Caves", img: "https://images.unsplash.com/photo-1591873831871-364276709b1f", map: "https://maps.app.goo.gl/A4k2o", hindi: "अजंता की गुफाएं अपनी प्राचीन बौद्ध पेंटिंग के लिए प्रसिद्ध हैं।" }
+            { name: "Gateway of India", img: "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo0FMKlqo5rjtICwZ6ejrQ3clOQtojKaYTEhNX6Q-MjSy1rYhsXgt0R1SIbrTxoZyCR-LNovHEjocPB5UEv2J1mcV7HbTopdyVoDXTK7we1bKbTzclz1dqxtVehBwoARLNID1I=w408-h306-k-no", map: "https://maps.app.goo.gl/nwP1hkmV64QnPLFH7", hindi: "गेटवे ऑफ इंडिया मुंबई का सबसे प्रतिष्ठित स्मारक है।" },
+            { name: "Ajanta Caves", img: "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepkB56sP73TgF1cahJoWJ6YJW7U--AIfQ48hUdA8JNZvUW3qr5TkS_-LTzCTeC9Av3Cb1rrJXcaR_KB2D7OHZVYjAepQalnvUtNiYXEY5zW46dpXw5EtXRzbh0CIwLTnSw3Opsd=w408-h408-k-no", map: "https://maps.app.goo.gl/UdS9TiSnams7nJuG8", hindi: "अजंता की गुफाएं अपनी प्राचीन बौद्ध पेंटिंग के लिए प्रसिद्ध हैं।" }
         ]
     }
     // ... Note: You can continue adding up to 50+ sites in this structure
