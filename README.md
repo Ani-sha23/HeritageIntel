@@ -174,7 +174,7 @@ This positions HeritageIntel as a **next-generation smart tourism infrastructure
 
 ---
 
-##Vision
+**Vision**
 
 To preserve cultural heritage through technology while enabling inclusive economic growth and intelligent tourism management.
 
