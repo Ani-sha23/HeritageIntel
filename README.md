@@ -180,6 +180,3 @@ To preserve cultural heritage through technology while enabling inclusive econom
 
 ---
 
-## Getting Started
-
-```bash
